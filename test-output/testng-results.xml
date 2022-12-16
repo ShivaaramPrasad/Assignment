@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+      <class name="com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam">
+        <test-method status="PASS" signature="test1_verifyOnly4ForeighPlayersInTeam()[pri:0, instance:com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam@14d3bc22]" name="test1_verifyOnly4ForeighPlayersInTeam" duration-ms="1" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_verifyOnly4ForeighPlayersInTeam -->
+      </class> <!-- com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam -->
+      <class name="com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam">
+        <test-method status="PASS" signature="test2_VerifyMinimumOneWicketKeeperInTeam()[pri:0, instance:com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam@3901d134]" name="test2_VerifyMinimumOneWicketKeeperInTeam" duration-ms="12" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_VerifyMinimumOneWicketKeeperInTeam -->
+      </class> <!-- com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
