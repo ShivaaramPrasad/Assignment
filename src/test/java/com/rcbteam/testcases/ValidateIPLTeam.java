@@ -9,12 +9,14 @@ import com.iplteam.utility.ReadJSONFileData;
 public class ValidateIPLTeam {
 
 	/**
-	 * Read JSON File and Fetch JSON Array data
+	 * Execute before @Test,
+	 * Read JSON File and Fetch JSON Array data one time
 	 */
 	@BeforeTest
 	public void preSetUp(){
 		ReadJSONFileData.readJsonDataFile("TeamRCB");
 		ReadJSONFileData.fetchData();
+		System.out.println("before test");
 	}
 
 	/**

@@ -14,7 +14,8 @@ public class ReadJSONFileData {
 	/**
 	 * Read the JSON file,parse and get JSONObject 
 	 * 
-	 * @param fileName 
+	 * @param fileName - String type
+	 * @return void
 	 */
 	public static void readJsonDataFile(String fileName) {
 		try {
@@ -30,6 +31,7 @@ public class ReadJSONFileData {
 	/**
 	 * Fetch data from JSON Array
 	 * 
+	 * @return void
 	 */
 	public static void fetchData(){
 		try {
@@ -51,12 +53,10 @@ public class ReadJSONFileData {
 	}
 
 	/**
-	 * Handle exception throw and print exception message
-	 * @param e
+	 * Print exception message and stack trace
 	 */
 	private static void printException(Exception e) {
 		System.out.println("Exception Message: "+e.getMessage());
 		System.out.println("Stack Trace: "+e.getStackTrace());		
 	}
-
 }

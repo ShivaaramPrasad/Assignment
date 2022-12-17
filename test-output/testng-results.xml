@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33" started-at="2022-12-17T10:41:47Z" finished-at="2022-12-17T10:41:47Z">
+  <suite name="Default suite" duration-ms="32" started-at="2022-12-17T11:10:41Z" finished-at="2022-12-17T11:10:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33" started-at="2022-12-17T10:41:47Z" finished-at="2022-12-17T10:41:47Z">
+    <test name="Default test" duration-ms="32" started-at="2022-12-17T11:10:41Z" finished-at="2022-12-17T11:10:41Z">
       <class name="com.rcbteam.testcases.ValidateIPLTeam">
-        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="preSetUp" is-config="true" duration-ms="16" started-at="2022-12-17T10:41:47Z" finished-at="2022-12-17T10:41:47Z">
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="preSetUp" is-config="true" duration-ms="14" started-at="2022-12-17T11:10:41Z" finished-at="2022-12-17T11:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetUp -->
-        <test-method status="PASS" signature="test1_verifyForeignPlayersCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyForeignPlayersCount" duration-ms="3" started-at="2022-12-17T10:41:47Z" finished-at="2022-12-17T10:41:47Z">
+        <test-method status="PASS" signature="test1_verifyForeignPlayersCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyForeignPlayersCount" duration-ms="4" started-at="2022-12-17T11:10:41Z" finished-at="2022-12-17T11:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1_verifyForeignPlayersCount -->
-        <test-method status="PASS" signature="test1_verifyWicketKeeperCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyWicketKeeperCount" duration-ms="0" started-at="2022-12-17T10:41:47Z" finished-at="2022-12-17T10:41:47Z">
+        <test-method status="PASS" signature="test1_verifyWicketKeeperCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyWicketKeeperCount" duration-ms="1" started-at="2022-12-17T11:10:41Z" finished-at="2022-12-17T11:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1_verifyWicketKeeperCount -->
       </class> <!-- com.rcbteam.testcases.ValidateIPLTeam -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
