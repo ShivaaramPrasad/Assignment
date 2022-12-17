@@ -8,35 +8,28 @@ import com.iplteam.utility.ReadJSONFileData;
 
 public class ValidateIPLTeam {
 
-/**
- * Read JSON File and Fetch JSON Array data
- */
-@BeforeTest
-public void preSetUp(){
-	ReadJSONFileData.readJsonDataFile("TeamRCB");
-	ReadJSONFileData.fetchData();
-}
-	
-/**
- *Verify Foreign Players Count 
- */
-@Test
-public void test1_verifyForeignPlayersCount() {
-	Assert.assertTrue(ReadJSONFileData.foreignPlayerCount==4);
-}
+	/**
+	 * Read JSON File and Fetch JSON Array data
+	 */
+	@BeforeTest
+	public void preSetUp(){
+		ReadJSONFileData.readJsonDataFile("TeamRCB");
+		ReadJSONFileData.fetchData();
+	}
 
-/**
- *Verify Wicket-Keeper Count 
- */
-@Test
-public void test1_verifyWicketKeeperCount(){
-	Assert.assertTrue(ReadJSONFileData.wicketKeeperCount>=1);
-}
-	
-	
-	
-	
-	
-	
-	
+	/**
+	 *Verify Foreign Players Count 
+	 */
+	@Test
+	public void test1_verifyForeignPlayersCount() {
+		Assert.assertTrue(ReadJSONFileData.foreignPlayerCount==4);
+	}
+
+	/**
+	 *Verify Wicket-Keeper Count 
+	 */
+	@Test
+	public void test1_verifyWicketKeeperCount(){
+		Assert.assertTrue(ReadJSONFileData.wicketKeeperCount>=1);
+	}
 }
