@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.iplteam.testcases.Testcase1">
+      <class name="com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam">
         <methods>
-          <include name="test1"/>
+          <include name="test1_verifyForeignPlayersCount"/>
+          <include name="preSetUp"/>
         </methods>
-      </class> <!-- com.iplteam.testcases.Testcase1 -->
+      </class> <!-- com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

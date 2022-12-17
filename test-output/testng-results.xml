@@ -2,22 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+  <suite name="Default suite" duration-ms="33" started-at="2022-12-17T09:42:02Z" finished-at="2022-12-17T09:42:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
-      <class name="com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam">
-        <test-method status="PASS" signature="test1_verifyOnly4ForeighPlayersInTeam()[pri:0, instance:com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam@14d3bc22]" name="test1_verifyOnly4ForeighPlayersInTeam" duration-ms="1" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+    <test name="Default test" duration-ms="33" started-at="2022-12-17T09:42:02Z" finished-at="2022-12-17T09:42:02Z">
+      <class name="com.rcbteam.testcases.ValidateIPLTeam">
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="preSetUp" is-config="true" duration-ms="15" started-at="2022-12-17T09:42:02Z" finished-at="2022-12-17T09:42:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1_verifyOnly4ForeighPlayersInTeam -->
-      </class> <!-- com.rcbteam.testcases.Testcase1_verifyOnly4ForeighPlayersInTeam -->
-      <class name="com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam">
-        <test-method status="PASS" signature="test2_VerifyMinimumOneWicketKeeperInTeam()[pri:0, instance:com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam@3901d134]" name="test2_VerifyMinimumOneWicketKeeperInTeam" duration-ms="12" started-at="2022-12-16T12:30:38Z" finished-at="2022-12-16T12:30:38Z">
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="test1_verifyForeignPlayersCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyForeignPlayersCount" duration-ms="4" started-at="2022-12-17T09:42:02Z" finished-at="2022-12-17T09:42:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2_VerifyMinimumOneWicketKeeperInTeam -->
-      </class> <!-- com.rcbteam.testcases.Testcase2_VerifyMinimumOneWicketKeeperInTeam -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test1_verifyForeignPlayersCount -->
+        <test-method status="PASS" signature="test1_verifyWicketKeeperCount()[pri:0, instance:com.rcbteam.testcases.ValidateIPLTeam@65d6b83b]" name="test1_verifyWicketKeeperCount" duration-ms="1" started-at="2022-12-17T09:42:02Z" finished-at="2022-12-17T09:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_verifyWicketKeeperCount -->
+      </class> <!-- com.rcbteam.testcases.ValidateIPLTeam -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
